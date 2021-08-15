@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 header{
-    background-color:palevioletred;
+    background-image: url(./img/header.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 850px;
+    
 }
 .menu{
     background-color:rgb(255, 222, 173);
@@ -35,10 +39,27 @@ header{
     height:40px;
     float:left;
 }
+.titulo{
+    text-align:center;
+}
 .titulo h1{
-    text-align: center;
     color: white;
-    font-size: 16px;
+    font-size: 25px;
+    padding-top:20px;
+}
+.titulo p{
+    color:white;
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+.titulo button{
+background-color: tomato;
+border-radius:30px;
+color: white;
+padding:5px 5px;
+}
+.titulo button:hover{
+    color:rgb(220, 234, 94);
 }
 main{
     background-color: rgb(255, 99, 71);
@@ -49,20 +70,20 @@ main{
     font-size:10px;
     display:flex;
     align-items:center;
-    flex: 1 1 60%;
     flex-flow:row wrap;
+    padding-top:20px;
 }
-.contenedor section{
-    display: flex;
-    
-    
+.contenedor section h2{
+    color: white;
+    text-align: center;
+    font-size:12px;
 }
 .contenedor1{
     flex: 1 1 auto;
     height: 300px;
 }
 .contenedor2{
-    flex: 1 5 auto;
+    flex: 1 1 auto;
     height: 300px;
 }
 .contenedor3{
@@ -78,7 +99,7 @@ main{
     height: 300px;
 }
 .contenedor6{
-    flex: 1 1 auto;
+    flex: 1 3 auto;
     height: 300px;
 }
 .contenedor img{
@@ -89,4 +110,6 @@ footer{
     background-color:black;
     color:white;
     height: 100px;
+    display:flex;
+    justify-content:center;
 }
