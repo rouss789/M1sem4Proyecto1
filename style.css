@@ -46,19 +46,22 @@
 header{
     background-image: url(./img/header.jpg);
     height: 70vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: 1200px;
     
 }
 .menu{
     background-color:rgb(255, 222, 173);
-    height: 40px;
+    height: 50px;
+    font-family: cursive;
+    font-size:18px;
     
 }
 .menu ul{
     display: flex;
     justify-content:space-around;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 .menu li{
     list-style: none;   
@@ -86,6 +89,7 @@ header{
     color: white;
     font-size: 25px;
     padding-top:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .titulo p{
     color:white;
@@ -96,7 +100,7 @@ header{
 background-color: tomato;
 border-radius:30px;
 color: white;
-padding:5px 5px;
+padding:10px 10px;
 }
 .titulo button:hover{
     color:rgb(220, 234, 94);
@@ -156,7 +160,7 @@ main{
 footer{
     background-color:black;
     color:white;
-    height: 100px;
+    height: 300px;
     display:flex;
     justify-content:center;
 }
